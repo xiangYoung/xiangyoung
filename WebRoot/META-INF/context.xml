@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context reloadable = "true">
+<Resource type="javax.sql.DataSource"
+      username="scott"
+      driverClassName="oracle.jdbc.driver.OracleDriver"
+      password="tiger"
+      url="jdbc:oracle:thin:@127.0.0.1:1521:ORCL" auth="Container" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/dataRes"/>
+</Context> 

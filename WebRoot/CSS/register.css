@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+			padding:0px;
+			margin:0px;
+			border:0px;
+			background:url(../images/bg_img2.png) no-repeat;
+		}
+    
+    .main{
+	   width: 360px;
+	  
+	   position: relative;top:40px;left:250px;
+	   min-height: 350px;
+       background-color:#fafcfe;
+       border: 1px solid #dfe8f2;
+       padding: 30px;}
+    .register_table p{
+	   font-size:25px;
+       line-height:40px;
+	   color:#666;
+       margin:5px 0px 25px 0px;}
+	.account_text{
+	   border: 1px solid #d3e1f1;
+       border-radius: 2px;
+       font-size: 14px;
+	   color:#666;
+       padding: 5px;
+       height: 30px;
+       width: 250px;
+	   line-height:30px;
+	   margin:10px 0px 10px 0px;}
+	.register_sub{
+       height: 40px;
+       width: 100%;
+       margin: 30px 0 30px 0;
+       display: block;
+	   border: 1px solid #3199e8;
+	   color: #fff;
+	   font-size: 16px;
+	   background: #3199e8;}
+     .register_table a{
+	   color: #0f97ea; 
+	   text-decoration: none;
+	   }
+     .register_table a:hover{
+	   text-decoration: underline;
+	   } 
+	 .protocle{text-align:right;}
+	 #alt{
+		 border: 1px solid #F00;
+		 }
+	 .hint{
+		 font-size:12px;
+		 color:#F00;
+	 }
